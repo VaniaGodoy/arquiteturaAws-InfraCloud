@@ -30,4 +30,4 @@ Para mais detalhes, acesse o repositório e sinta-se à vontade para sugerir mel
 
 ##captura de tela
 
-![imagem Diagrama](diagrama.jpeg)
+![imagem Diagrama](Diagrama.jpeg)

@@ -16,19 +16,37 @@ Custo mensal estimado: $500
 
 ##🔧 Serviços Utilizados
 
-Amazon Route 53: Gerenciamento de tráfego DNS.
+A InfraCloud propos o uso das seguintes tecnologias AWS para automatizar e escalar a infraestrutura da Nova Tech:
 
-AWS WAF e CloudFront: Segurança e distribuição de conteúdo.
+1. Amazon EC2 (Elastic Compute Cloud): Provisionamento de instâncias de servidores com Auto Scaling para adaptar a infraestrutura ao volume de tráfego automaticamente.
 
-Elastic Load Balancer (ELB) e Auto Scaling Group: Distribuição de carga e escalabilidade automática.
+2. AWS Lambda: Execução de código sob demanda sem necessidade de gerenciamento de servidores, ideal para operações baseadas em eventos, reduzindo custos.
 
-Amazon EC2: Instâncias para front-end e back-end, distribuídas em múltiplas zonas de disponibilidade.
+3. Amazon API Gateway: Gerenciamento escalável e seguro de APIs REST, permitindo o roteamento entre o front-end e os microserviços.
 
-Amazon RDS: Banco de dados relacional com réplica automática.
+4. Amazon RDS (Relational Database Service): Banco de dados MySQL com replicação multi-AZ, backups automáticos e alta disponibilidade.
 
-Amazon S3 e CloudWatch: Armazenamento e monitoramento de logs.
+5. Amazon S3 e CloudFront: Armazenamento de objetos (imagens de produtos) no S3 e distribuição global de conteúdo via CDN (CloudFront) para baixa latência.
 
-AWS CloudFormation e Lambda: Provisionamento e automação de recursos.
+6. Elastic Load Balancer (ELB): Balanceamento de carga entre as instâncias EC2 para garantir alta disponibilidade e distribuição eficiente do tráfego.
+
+7. Amazon Route 53: Serviço de DNS escalável para gerenciamento de domínios e roteamento de tráfego de forma rápida e segura.
+
+8. AWS WAF (Web Application Firewall): Proteção contra ataques como DDoS, SQL Injection e XSS, garantindo a segurança da aplicação.
+
+9. AWS Shield: Proteção avançada contra ataques DDoS para proteger a aplicação e aumentar sua resiliência.
+
+10. AWS IAM (Identity and Access Management): Controle de acessos com políticas de segurança para garantir que apenas usuários autorizados possam acessar os recursos da AWS.
+
+11. Amazon CloudWatch: Monitoramento de métricas, logs e alarmes para assegurar a saúde da infraestrutura em tempo real.
+
+12. AWS Budgets: Monitoramento do orçamento com alertas de custo para garantir que os gastos fiquem dentro dos limites planejados.
+
+13. AWS CloudFormation: Automação da infraestrutura através de templates IaC (Infrastructure as Code), garantindo repetibilidade e consistência nas configurações.
+
+14. AWS CodeCommit: Repositório Git seguro para controle de versões e colaboração no desenvolvimento do código.
+
+15. Amazon S3: Armazenamento de backups e dados estáticos.
 
 ##⚙️ Detalhes da Arquitetura
 

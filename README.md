@@ -2,6 +2,8 @@
 
 Este repositório contém o projeto de uma arquitetura de infraestrutura na AWS para uma plataforma de e-commerce especializada em equipamentos esportivos. O design da infraestrutura foi baseado em uma abordagem de microserviços, visando automação, escalabilidade e controle de custos.
 
+![imagem Diagrama](Diagrama.jpeg)
+
 📌 Resumo do Projeto
 
 Objetivo: Criar uma infraestrutura escalável e automatizada na AWS para suportar o crescimento do e-commerce, com segurança e alta disponibilidade.
@@ -59,7 +61,3 @@ A arquitetura foi projetada com foco em:
 Este projeto foi uma excelente oportunidade para explorar as melhores práticas da AWS, especialmente para e-commerces. Aprendemos a otimizar custos e a projetar uma infraestrutura que possa crescer conforme a demanda do negócio.
 
 Para mais detalhes, acesse o repositório e sinta-se à vontade para sugerir melhorias! 😄
-
-captura de tela
-
-![imagem Diagrama](Diagrama.jpeg)

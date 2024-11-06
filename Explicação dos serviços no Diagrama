@@ -1,0 +1,72 @@
+![imagem do Diagrama](Diagrama.jpeg)
+
+Explicação dos serviços criado no Diagrama
+
+1. (à esquerda)
+o O usuário interage com o sistema através do Route 53, que direciona o tráfego para os serviços corretos por meio do Elastic Load Balancer (ELB).
+
+2. Proteção e Distribuição (camada de segurança e caching)
+
+o WAF (Web Application Firewall) e AWS Shield:
+▪ O WAF protege contra ataques na camada de aplicação.
+▪ O AWS Shield adiciona proteção contra ataques DDoS (ataques de negação de serviço).
+
+o CloudFront:
+▪ Serviço de CDN para distribuição eficiente de conteúdo aos usuários.
+
+o API Gateway:
+▪ Gerencia requisições de APIs, roteando para serviços serverless via
+AWS Lambda.
+
+3. Serviços de Automação e Gerenciamento
+o IAM (Identity and Access Management):
+▪ Controla o acesso a diferentes recursos e serviços AWS.
+
+o AWS CodeCommit e CloudFormation:
+▪ O CodeCommit gerencia o controle de versão do código.
+▪ O CloudFormation automatiza a criação de recursos através de scripts de Infrastructure as Code (IaC), garantindo consistência na infraestrutura.
+
+4. Controle de Custos - AWS Budgets
+
+o AWS Budgets:
+▪ Ferramenta usada para monitorar e controlar os custos do projeto, configurando orçamentos personalizados com alertas automáticos.
+▪ Isso permite à equipe acompanhar os gastos em tempo real e tomar decisões proativas antes que o orçamento estoure.
+▪ Os orçamentos incluem os custos de uso da EC2, RDS, S3, e outros serviços, com alertas configurados para garantir que o projeto permaneça financeiramente sustentável.
+
+5. Serviços de Armazenamento
+
+o Amazon S3:
+▪ Armazena objetos de dados (como imagens, arquivos de mídia) acessíveis com baixa latência.
+
+6. Camada de Aplicação e Back-End
+
+o Auto Scaling Group:
+▪ Ajusta automaticamente o número de instâncias EC2 de acordo com a demanda.
+
+o Elastic Load Balancer (ELB):
+▪ Distribui o tráfego de rede entre várias instâncias EC2.
+
+o EC2 Instances:
+▪ Instâncias EC2 distribuídas em várias Zonas de Disponibilidade (Availability Zones), aumentando a resiliência.
+▪ Subnets públicas hospedam o Front-end e subnets privadas hospedam o Back-end, com foco em segurança.
+
+7. Banco de Dados
+
+o Amazon RDS (Relational Database Service):
+▪ Replicação automática entre zonas de disponibilidade para alta disponibilidade e tolerância a falhas.
+
+8. Monitoramento e Observabilidade
+
+o Amazon CloudWatch:
+▪ Monitora o desempenho, eventos e erros dos recursos AWS, fornecendo alertas e insights em tempo real.
+
+Conclusão:
+
+Essa arquitetura proposta é altamente escalável, com múltiplas zonas de disponibilidade e
+suporte a autoescalonamento. Isso permite que o sistema responda de maneira eficiente às
+variações de demanda, garantindo alta disponibilidade e resiliência. A utilização de
+ferramentas como CloudFormation e CodeCommit facilita a automação e gerenciamento da
+infraestrutura, enquanto a segurança é garantida com WAF, Shield e as subnets privadas para
+o back-end.
+O AWS Budgets, no projeto não só garante alta performance e segurança, mas também tem um foco claro no controle de custos,
+um aspecto fundamental para qualquer empresa que busca crescer de forma sustentável. 

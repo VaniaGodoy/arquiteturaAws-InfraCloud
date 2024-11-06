@@ -2,17 +2,17 @@
 
 Este repositório contém o projeto de uma arquitetura de infraestrutura na AWS para uma plataforma de e-commerce especializada em equipamentos esportivos. O design da infraestrutura foi baseado em uma abordagem de microserviços, visando automação, escalabilidade e controle de custos.
 
-#📌 Resumo do Projeto
+📌 Resumo do Projeto
 
 Objetivo: Criar uma infraestrutura escalável e automatizada na AWS para suportar o crescimento do e-commerce, com segurança e alta disponibilidade.
 
-#Orçamento:
+Orçamento:
 
 - Investimento inicial: $10.000
 
 - Custo mensal estimado: $500
 
-#🔧 Serviços Utilizados
+🔧 Serviços Utilizados
 
 A InfraCloud Consultoria propos o uso das seguintes tecnologias AWS para automatizar e escalar a infraestrutura da Nova Tech:
 
@@ -46,7 +46,7 @@ A InfraCloud Consultoria propos o uso das seguintes tecnologias AWS para automat
 
 15. AWS CodeCommit: Repositório Git seguro para controle de versões e colaboração no desenvolvimento do código.
 
-#⚙️ Detalhes da Arquitetura
+⚙️ Detalhes da Arquitetura
 
 A arquitetura foi projetada com foco em:
   Alta Disponibilidade: Redundância em múltiplas zonas de disponibilidade.
@@ -54,12 +54,12 @@ A arquitetura foi projetada com foco em:
   Automação: Uso do CloudFormation e Lambda para facilitar a gestão de recursos.
   Otimização de Custos: Estimativa de $500/mês para manter a operação
 
-#📝 Aprendizados
+📝 Aprendizados
 
 Este projeto foi uma excelente oportunidade para explorar as melhores práticas da AWS, especialmente para e-commerces. Aprendemos a otimizar custos e a projetar uma infraestrutura que possa crescer conforme a demanda do negócio.
 
 Para mais detalhes, acesse o repositório e sinta-se à vontade para sugerir melhorias! 😄
 
-#captura de tela
+captura de tela
 
 ![imagem Diagrama](Diagrama.jpeg)
